@@ -16,7 +16,7 @@
 
 本项目测试分为三种类型，单元测试、压力测试与稳定性测试。
 
-单元测试使用自动测试方法，Planet端使用go test工具，Star后端使用unittest模块，Star前端采用 **TO BE FILLED** 进行测试，要求每一项实现的需求都有对应单元测试。 
+单元测试使用自动测试方法，Planet端使用go test工具，Star后端使用unittest模块，Star前端采用Vue Test Utils进行测试，要求每一项实现的需求都有对应单元测试。 
 
 压力测试采用手动方法，模仿高负载运行情形对各个模块进行测试，保证程序不崩溃。
 
@@ -32,7 +32,7 @@
 
 linux计算机：Python3.7+，PostgreSQL。
 
-Windows计算机：无。
+Windows计算机：Chrome浏览器，Firefox浏览器。
 
 ### 测试环境
 
